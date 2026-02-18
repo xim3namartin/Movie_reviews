@@ -94,5 +94,10 @@ app.use('/uploads', express.static(path.join(__dirname, 'public/uploads')));
 // Inicia el servidor
 app.listen(port, () => {
     console.log(`Escuchando en el puerto http://localhost:${port}`);
+
+// Ruta raíz: muestra la página principal
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "index.html"));
+
 });
 
