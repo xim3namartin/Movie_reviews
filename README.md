@@ -19,6 +19,9 @@ This project is a REST API built with **Node.js and Express** for managing movie
 ## 🎯 Project Objective
 Strengthen my backend development skills using Node.js by building a functional REST API and applying best practices for routing, controllers and data handling.
 
+## 🚀 Demo en vivo 
+El proyecto está desplegado en Render y disponible públicamente: [Movie Reviews – Demo](https://movie-reviews-gonn.onrender.com/)
+
 ## ▶️ How to Run the Project
 ```bash
 git clone <repository-url>
